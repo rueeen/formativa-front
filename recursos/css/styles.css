@@ -38,3 +38,36 @@ header{
   margin-top: 10rem;
   color: white;
 }
+
+.title h1{
+  margin-bottom: 0;
+  color: white;
+  padding: 3rem;
+}
+
+main{
+  background-color: #dee9f7;
+}
+
+.principal{
+  display: flex;
+  justify-content: space-around;
+}
+
+.productos{
+  background-color: white;
+  border: solid .1rem black;
+  margin: 1rem .5rem;
+  flex-basis: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img{
+  max-width: 100%;
+}
+
+.card{
+  flex-basis: calc(30% - 1rem);
+}
