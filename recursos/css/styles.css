@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+header{
+  background-color: #465B75;
+}
+
+.contenedor{
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.barra-superior{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  margin: 0 .5rem;
+}
+
+.navbar a:hover{
+  color: #808080;
+}
+
+.title{
+  margin-top: 10rem;
+  color: white;
+}
